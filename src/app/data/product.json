@@ -1,0 +1,75 @@
+[
+    {
+        "pid":1,
+        "pname":"kids Dress",
+        "pdescription":"kids dress for girls 4-6 years",
+        "price":1200,
+        "pstatus":"active",
+        "img":"https://www.bangaloredesignerboutique.com/wp-content/uploads/2022/07/p7-2.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"kids toys",
+        "pdescription":"kids toys for girls 4-6 years",
+        "price":1000,
+        "pstatus":"active",
+        "img":"https://image.made-in-china.com/202f0j00wqhfEUTWOVbo/Factary-Price-Giant-Teddy-Bear-Big-Plush-Teddy-Bear-Soft-Toys-for-Girls.jpg"
+        
+    },
+    {
+        "pid":3,
+        "pname":"kids Bags",
+        "pdescription":"kids bags for girls 4-6 years",
+        "price":500,
+        "pstatus":"out of stack",
+        "img":"https://rukminim1.flixcart.com/image/416/416/k1xwcy80/stuffed-toy/z/2/d/character-baby-school-bag-36-chocomen-original-imafhcjhkugg9txg.jpeg?q=70"
+    },
+    {
+        "pid":4,
+        "pname":"kids footwere",
+        "pdescription":"kids footwere for girls 4-6 years",
+        "price":750,
+        "pstatus":"active",
+        "img":"http://sc04.alicdn.com/kf/H7af1c784e56845f9a5b27ed3b20bb87de.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"kids bottol",
+        "pdescription":"kids bottle for girls 4-6 years",
+        "price":300,
+        "pstatus":"active",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmqBwtm533AVs2dY4xJLIl_1ewVXWqWzJfw&usqp=CAU"
+    },
+    {
+        "pid":6,
+        "pname":"kids blanket",
+        "pdescription":"kids blanket for girls 4-6 years",
+        "price":400,
+        "pstatus": "in active",
+        "img":"https://n4.sdlcdn.com/imgs/a/s/v/Disney-signature-Kids-Super-Soft-SDL100788687-1-a83c3.jpg"
+    },
+    {
+        "pid":7,
+        "pname":"kids products",
+        "pdescription":"kids products for girls 4-6 years",
+        "price":400,
+        "pstatus": "in active",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51XgDh4A_k8WPd7tSnr22RkRZ1dVH3DKbU2Io9LogXboPeoLMcN0SkVaoYqHVu5QNIYo&usqp=CAU"
+    },
+    {
+        "pid":8,
+        "pname":"kids food",
+        "pdescription":"kids food for girls 4-6 years",
+        "price":400,
+        "pstatus": "in active",
+        "img":"https://www.eatthis.com/wp-content/uploads/sites/4/2020/05/kids-snacks-to-buy.jpg?quality=82&strip=1"
+    },
+    {
+        "pid":9,
+        "pname":"kids story books",
+        "pdescription":"kids story books for girls 4-6 years",
+        "price":400,
+        "pstatus": "in active" ,
+        "img":"https://images-na.ssl-images-amazon.com/images/I/81ztsfyw67L.jpg"
+    }
+]

@@ -1,0 +1,33 @@
+img{
+    height: 500px;
+    width: 100px;
+    border-radius: 100px;
+  }
+  
+   
+  
+    .stylebinding1{
+  
+      color: rgba(28, 11, 11, 0.854);
+  
+      background-color: rgb(166, 183, 41);
+  
+  
+    }
+    /*Class for retrieving details from ProductDetails using *ngFor and *ngSwitchCase*/
+    .red{
+      color:red;
+    }
+    .green{
+      color:green;
+    }
+    .yellow{
+      color:yellow;
+    }
+    /*ng class*/
+    .blue{
+      color:blue
+    }
+    .shadow{
+      text-shadow: 2px 2px 2px
+    }

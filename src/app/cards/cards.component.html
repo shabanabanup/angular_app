@@ -1,0 +1,105 @@
+<div class="container">
+    <div class="row">
+      <div class="col col-3 col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card_img" style="height: 260px; width: 300px;" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSEJdaX9mPJ2nZeYazLIcrw01fujj6DUJoirzbRabfjIHiUHr2bb71azc6g7klSrNacAGZI68v1djq8nts7UEriF_ehTkObTMXjCDjvD_XsDq0OwuXHZbWZ&usqp=CAc" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">KIDS DRESS</h5>
+            <p class="card-text">BRAND NEW FANCY DRESS AVALIBLE</p>
+            <button type="button" class="btn btn-info">
+              Add to cart <span class="bg-success"></span>
+            </button>
+            <button style="margin-left:10px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Buy now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-3 col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card_img" style="height: 260px; width: 300px;" src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a2lkcyUyMHRveXN8ZW58MHx8MHx8&w=1000&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">KIDS TOYS</h5>
+            <p class="card-text">BRAND NEW FANCY KIDS BAGS AVALIBLE</p>
+            <button type="button" class="btn btn-info">
+              Add to cart <span class="bg-success"></span>
+            </button>
+            <button style="margin-left:10px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Buy now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-3 col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card_img" style="height: 260px; width: 300px;" src="https://5.imimg.com/data5/KK/CR/MY-5458350/kids-school-bag-500x500.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">KIDS BAGS</h5>
+            <p class="card-text">BRAND NEW FANCY KIDS BAGS AVALIBLE</p>
+            <button type="button" class="btn btn-info">
+              Add to cart <span class="bg-success"></span>
+            </button>
+            <button style="margin-left:10px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Buy now
+            </button>
+          </div>
+        </div>
+      </div>  
+      <div class="col col-3 col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card_img" style="height: 260px; width: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBK1jG8nu2sCwY1Jf491GHpcirFqmI-JXhKw&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">KIDS FOOTWERE</h5>
+            <p class="card-text">BRAND NEW FANCY KIDS FOOTWERE AVALIBLE</p>
+            <button type="button" class="btn btn-info">
+              Add to cart <span class="bg-success"></span>
+            </button>
+            <!-- Button trigger modal -->
+            <button style="margin-left:10px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Buy now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <marquee><h5>Lightning deals in kidsshopee</h5></marquee>
+<div *ngFor="let prod of product" style="border:none;">
+    <div class="row">
+        <!--1st column-->
+        <div class="col col-lg-3">
+            <!--Property Binding-->
+            <img [src]="prod.img" class="prodimg">
+        </div>
+        <!--2nd column-->
+        <div class="card col-lg-6" style="border:none;">
+            <div class="card-body col-lg-12">
+                <div class="row" style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;">
+                    <div class="col-lg-3">
+                        <!--Property Binding-->
+                        <img [src]="prod.img">
+                    </div>
+                    <div class="col-lg-9" style="margin-top:20px;">
+                        <!--Interpolation Binding-->
+                        <div>
+                            Product: {{prod.pname | uppercase}}
+                            <br>
+                            Description: {{prod.pdescription}}
+                            <br>
+                            Price: {{prod.price | currency:'INR'}}
+                            <br>
+                            Status: {{prod.pstatus | uppercase}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--3rd column-->
+        <div class="col col-lg-3">
+            <!--Property Binding-->
+            <img [src]="prod.img" class="prodimg">
+        </div>
+    </div>
+</div>
+
+  

@@ -1,0 +1,159 @@
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+
+        aria-current="true" aria-label="Slide 1"></button>
+
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="10000">
+
+        <img src="http://s3.weddbook.com/t1/2/9/7/2977593/birthday-party-baby-girl-dress-flower-girl-dress-puffy-tutu-baby-dress-photoshoot-baby-dress-wedding-baby-dress-princess-fairy-dress.jpg" class="d-block w-100" alt="CSS">
+
+        <div class="carousel-caption d-none d-md-block">
+
+          <h5>Dress</h5>
+
+          <p>kids </p>
+
+        </div>
+
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+
+        <img src="https://imgmedia.lbb.in/media/2019/09/5d6d4a34e0d20215d8ad197d_1567443508729.jpg" class="d-block w-100" alt="JS">
+
+        <div class="carousel-caption d-none d-md-block">
+
+          <h5>KIDS</h5>
+
+          <p>TOYS</p>
+
+        </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+      <img src="https://cdn.shopify.com/s/files/1/0082/6363/0953/products/WhatsAppImage2021-06-21at19.40.15_580x.jpg?v=1624728691" class="d-block w-100" alt="JQ">
+
+      <div class="carousel-caption d-none d-md-block">
+
+        <h5>Bags</h5>
+
+        <p>kids fancy bags</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+    <span class="visually-hidden">Previous</span>
+
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+    <span class="visually-hidden">Next</span>
+
+  </button>
+
+</div>
+
+<br>
+
+<br>
+<!--*ngFor to retrieve the contents from products-->
+
+<!--*ngIf in the <ul> for toggle effects to hide/show contents-->
+
+  <ul *ngIf="isVisible">
+
+    <li *ngFor="let product of products" style="color:blueviolet">
+  
+      {{product.productname}}
+  
+    </li>
+  
+  </ul>
+  
+  <!--event to hide product dectails-->
+  
+  <button (click)="hide_products()">Hide the product details
+  
+  </button>
+  
+  <!--*ngSwitch-->
+  
+  <ul [ngSwitch]="product">
+  
+    <li *ngSwitchCase="'Dress'">Dress</li>
+  
+    <li *ngSwitchCase="'Headphone'">Toys</li>
+  
+    <li *ngSwitchCase="'Laptop'">Bags</li>
+  
+    <li *ngSwitchCase="'Footwear'">Footwear</li>
+  
+    <li *ngSwitchDefault>Not Found</li>
+  
+  </ul>
+  
+   
+  
+  <!--style binding-->
+  <p [style.color]="'red'" [style.font-size.px]="'24'" [style.background-color]="'aqua'">Red Color</p>
+  <p [style.background-color]="'aqua'">Red Color</p>
+  <p [style.font-size.px]="'24'">Red Color</p>
+  <p class="stylebinding1">Class Binding</p>
+  <hr>
+  <!--TERNARY OPERATOR FOR STYLE BINDING-->
+  <button [style.color]="errorcolor=='red1'?'red':'blue'">STOCK DETAILS</button>
+  <hr>
+  <!--Access the ProductDetails *ngFor and *ngSwitchCase-->
+  <!--red,green,yellow classes are created in the component.css-->
+  <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
+    <li *ngSwitchCase="'green'" class="green">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchCase="'red'" class="red">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchDefault class="yellow">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+  </ul>
+  <hr>
+  <!--Bootstrap contextual classes(eg text-success)-->
+  <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.status">
+    <li *ngSwitchCase="'Active'" class="text-success">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchCase="'InActive'" class="text-danger">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchDefault class="text-warning">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+  </ul>
+  <hr>
+ 
+  
+
