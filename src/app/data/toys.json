@@ -1,0 +1,46 @@
+[
+    {
+        "pid":1,
+        "pname":"BUILDING BLOCKS",
+        "pdescription":"kids toys (BUILDING BLOCKS) for girls 1-6 years",
+        "price":500,
+        "img":"https://m.media-amazon.com/images/I/614hC7xBgtL._SL1000_.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"BICYCLE",
+        "pdescription":"kids toys (BICYCLE) for girls 1-6 years",
+        "price":4000,
+        "img":"https://images-eu.ssl-images-amazon.com/images/I/51s6bZQ-4dS._AC._SR360,460.jpg"
+        
+    },
+    {
+        "pid":3,
+        "pname":"TEDDY BEARS",
+        "pdescription":"kids toys (TEDDY BEARS) for girls 1-6 years",
+        "price":3400,        
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7V_8NllimDr1coDiqbQSPSaSoIzty4TpmUQ&usqp=CAU"
+    },
+    {
+        "pid":4,
+        "pname":"DOLLS",
+        "pdescription":"kids toys (DOLLS) for girls 1-6 years",
+        "price":1700,
+        "img":"https://rukminim1.flixcart.com/image/416/416/j9it30w0/doll-doll-house/g/x/f/fashion-hair-colour-spray-doll-kit-and-makeup-with-clothes-original-imaez938mrv7nzbm.jpeg?q=70"
+    },
+    {
+        "pid":5,
+        "pname":"CARS",
+        "pdescription":"kids toys (CARS) for girls 1-6 years",
+        "price":2500,
+        "img":"https://images-eu.ssl-images-amazon.com/images/I/61asY+ONUAL._AC._SR360,460.jpg"
+    },
+    {
+        "pid":6,
+        "pname":"BABY BATH TUB",
+        "pdescription":"kids toys (BABY BATH TUB) for girls 1-6 years",
+        "price":1114,
+        "img":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/9714787g.webp"
+    }
+
+]

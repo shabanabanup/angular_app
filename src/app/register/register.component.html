@@ -1,0 +1,68 @@
+<!--Property Binding-->
+<form [formGroup]="myForm" novalidate>
+    <div class="form-group">
+        <label>User Name</label>
+        <input type="text" class="form-control" placeholder="Enter username" formControlName="username"
+            [ngClass]="{'is-invalid':username.errors && (username.touched||username.dirty),'is-valid':username.valid}">
+        <!--Error message for username-->
+        <div class="invalid-feedback">
+            <strong *ngIf="username.errors?.required">Name is Required</strong>
+            <strong *ngIf="username.errors?.pattern">Only Alphabets allowed(A-Z and a-z)</strong>
+            <strong *ngIf="username.errors?.minlength">Min length is 6 characters</strong>
+            <strong *ngIf="username.errors?.maxlength">Max length is 16 characters</strong>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>User E-mail</label>
+        <input type="email" class="form-control" placeholder="Enter email" formControlName="useremail"
+            [ngClass]="{'is-invalid':useremail.errors && (useremail.touched||useremail.dirty),'is-valid':useremail.valid}">
+        <!--Error message for username-->
+        <div class="invalid-feedback">
+            <strong *ngIf="useremail.errors?.required">Email is Required</strong>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" placeholder="Enter Password" formControlName="password"
+            [ngClass]="{'is-invalid':password.errors && (password.touched||password.dirty),'is-valid':password.valid}">
+        <!--Error message for username-->
+        <div class="invalid-feedback">
+            <strong *ngIf="password.errors?.required">Password is Required</strong>
+            <strong *ngIf="password.errors?.pattern">Pattern does not match</strong>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Mobile</label>
+        <input type="text" class="form-control" placeholder="Enter Mobile" formControlName="mobile"
+            [ngClass]="{'is-invalid':mobile.errors && (mobile.touched||mobile.dirty),'is-valid':mobile.valid}">
+        <!--Error message for mobile-->
+        <div class="invalid-feedback">
+            <strong *ngIf="mobile.errors?.required">Mobile number is Required</strong>
+        </div>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary" (click)="onSubmit()">SUBMIT</button>
+</form>
+<br>
+<br>
+<!--Validation Classes-->
+<!--Valid/InValid-->
+<!--Touched/Untouched-->
+<!--Dirty/Pristine-->
+<div class="form-group">
+    <div class="alert alert-info">
+        <p>Valid: <b>{{username.valid}}</b></p>
+        <p>InValid: <b>{{username.invalid}}</b></p>
+        <p>Touched: <b>{{username.touched}}</b></p>
+        <p>Untouched: <b>{{username.untouched}}</b></p>
+        <p>Dirty: <b>{{username.dirty}}</b></p>
+        <p>Pristine: <b>{{username.pristine}}</b></p>
+    </div>
+</div>
+<br>
+<br>
+<!--Retrieve the details from the form and render them using the json pipe-->
+<div>
+    <h3>User Details</h3>
+    <pre>{{myForm.value | json}}</pre>
+</div>

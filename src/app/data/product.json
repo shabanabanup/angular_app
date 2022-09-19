@@ -21,7 +21,7 @@
         "pname":"kids Bags",
         "pdescription":"kids bags for girls 4-6 years",
         "price":500,
-        "pstatus":"out of stack",
+        "pstatus":"out of stock",
         "img":"https://rukminim1.flixcart.com/image/416/416/k1xwcy80/stuffed-toy/z/2/d/character-baby-school-bag-36-chocomen-original-imafhcjhkugg9txg.jpeg?q=70"
     },
     {
@@ -45,7 +45,7 @@
         "pname":"kids blanket",
         "pdescription":"kids blanket for girls 4-6 years",
         "price":400,
-        "pstatus": "in active",
+        "pstatus": "active",
         "img":"https://n4.sdlcdn.com/imgs/a/s/v/Disney-signature-Kids-Super-Soft-SDL100788687-1-a83c3.jpg"
     },
     {
@@ -53,7 +53,7 @@
         "pname":"kids products",
         "pdescription":"kids products for girls 4-6 years",
         "price":400,
-        "pstatus": "in active",
+        "pstatus": "active",
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51XgDh4A_k8WPd7tSnr22RkRZ1dVH3DKbU2Io9LogXboPeoLMcN0SkVaoYqHVu5QNIYo&usqp=CAU"
     },
     {
@@ -61,7 +61,7 @@
         "pname":"kids food",
         "pdescription":"kids food for girls 4-6 years",
         "price":400,
-        "pstatus": "in active",
+        "pstatus": "active",
         "img":"https://www.eatthis.com/wp-content/uploads/sites/4/2020/05/kids-snacks-to-buy.jpg?quality=82&strip=1"
     },
     {
@@ -69,7 +69,7 @@
         "pname":"kids story books",
         "pdescription":"kids story books for girls 4-6 years",
         "price":400,
-        "pstatus": "in active" ,
+        "pstatus": "out of stock" ,
         "img":"https://images-na.ssl-images-amazon.com/images/I/81ztsfyw67L.jpg"
     }
 ]

@@ -16,7 +16,7 @@ export class SearchComponent implements OnInit {
   //write
   set pname(pname:any) //Laptop
   {
-    this._productname=pname || 'not found';
+    this._productname=pname || 'enter product';
     console.log(pname)
   }
   //read

@@ -1,0 +1,57 @@
+[
+    {
+        "pid":1,
+        "pname":"BUILDING BLOCKS",
+        "pdescription":"kids toys (BUILDING BLOCKS) for girls 1-6 years",
+        "price":500,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwGcxxU9v0sPxDnm3Vy-wDaKlaV_BBkYXnsA&usqp=CAU"
+    },
+    {
+        "pid":2,
+        "pname":"BICYCLE",
+        "pdescription":"kids toys (BICYCLE) for girls 1-6 years",
+        "price":4000,
+        "img":"https://images-eu.ssl-images-amazon.com/images/I/51s6bZQ-4dS._AC._SR360,460.jpg"
+        
+    },
+    {
+        "pid":1,
+        "pname":"kids dress",
+        "pdescription":"kids dress for girls 1-6 years",
+        "price":1245,
+        "img":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ-B9I6lQ1jcFl3_PACtsZm-cN6zS-SGrEyV_q9YzICpfS1q0Q5PDTtXytypnEVYkJsrKAKZAMkiLksGku7Dsyy2ycsZChygFBGFPCp-T2-4Cs6eHL7UjbJ&usqp=CAc"
+    },
+    {
+        "pid":2,
+        "pname":"kids dress",
+        "pdescription":"kids dress for girls 1-6 years",
+        "price":1000,
+        "video":"https://youtu.be/VdLIExakGRQ",
+        "img":"https://i.pinimg.com/736x/dc/6c/e8/dc6ce83c4186c029490b4796dc0d97d8.jpg"
+    },
+    {
+            "pid":7,
+            "pname":"kids products",
+            "pdescription":"kids products for girls 4-6 years",
+            "price":400,
+            "pstatus": "active",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51XgDh4A_k8WPd7tSnr22RkRZ1dVH3DKbU2Io9LogXboPeoLMcN0SkVaoYqHVu5QNIYo&usqp=CAU"
+        },
+        {
+            "pid":8,
+            "pname":"kids food",
+            "pdescription":"kids food for girls 4-6 years",
+            "price":400,
+            "pstatus": "active",
+            "img":"https://www.eatthis.com/wp-content/uploads/sites/4/2020/05/kids-snacks-to-buy.jpg?quality=82&strip=1"
+        },
+        {
+            "pid":9,
+            "pname":"kids story books",
+            "pdescription":"kids story books for girls 4-6 years",
+            "price":400,
+            "pstatus": "out of stock" ,
+            "img":"https://images-na.ssl-images-amazon.com/images/I/81ztsfyw67L.jpg"
+        }
+    ]
+        

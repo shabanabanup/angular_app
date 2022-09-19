@@ -6,4 +6,8 @@ img{
   border-radius: 50px;
   
 }
+marquee{
+  text-shadow:2px 3px 3px rgb(53, 169, 207);
+  color: rgb(24, 138, 70);
   
+}

@@ -1,0 +1,15 @@
+
+img{
+    
+    height:100px;
+    width:100px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+marquee{
+    text-shadow:2px 3px 3px rgba(251, 226, 3, 0.724);
+    color:rgb(4, 4, 4);
+    font-size: 28px;
+}

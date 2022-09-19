@@ -1,0 +1,23 @@
+img{
+    height:100px;
+    width:100px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.prodimg{
+    height:200px;
+    width:200px;
+    margin-left:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+
+}
+
+marquee{
+    text-shadow:2px 3px 3px rgb(26, 198, 58);
+    color: rgb(204, 222, 93);
+    
+  }
