@@ -8,23 +8,33 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" routerLink="">Home</a>
+          <a class="nav-link active" aria-current="page" href="#" routerLink="home">Home</a>
         </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="register" *ngIf="!auth">Register</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact" *ngIf="!auth">Contact</a>
+          </li>
+          
+       
         <li class="nav-item">
-          <a class="nav-link" href="#" routerLink="cards">cards</a>
+          <a class="nav-link" href="#" routerLink="cards" *ngIf="auth">cards</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" *ngIf="auth">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li class="nav-item">
-              <a class="nav-link" routerLink="register">Register</a>
-            </li>
+            <li><a class="dropdown-item" routerLink="kids">toys</a></li>
             <li><a class="dropdown-item" routerLink="kidsd">kids dress</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" routerLink="kidsshopeedeals">kidsshopee delas</a></li>
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="prod_details" *ngIf="auth">Product Details</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>

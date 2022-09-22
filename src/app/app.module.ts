@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { navComponent } from './nav/nav.component';
@@ -15,6 +16,10 @@ import { CounterComponent } from './counter/counter.component';
 import { AdsComponent } from './ads/ads.component';
 import { AllimgComponent } from './allimg/allimg.component';
 import { RegisterComponent } from './register/register.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -30,13 +35,17 @@ import { RegisterComponent } from './register/register.component';
     CounterComponent,
     AdsComponent,
     AllimgComponent,
-    RegisterComponent
+    RegisterComponent,
+    ContactusComponent,
+    ProductdetailsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

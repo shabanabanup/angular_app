@@ -1,0 +1,51 @@
+/* Form{
+    background-color: rgb(234, 197, 223);
+    border-radius: solid;
+    margin-left: 50px;
+    border-radius: solid;
+    margin-right: 100px;
+    border-style: solid;
+    box-sizing: border-box;
+    
+
+
+}
+marquee{
+    text-shadow:2px 3px 3px rgba(155, 222, 122, 0.724);
+    color:rgb(223, 83, 48);
+    font-size: 28px;
+} */
+input {
+    width: 60%;
+    margin-left: 100px;
+}
+
+label {
+    color:rgb(2, 2, 34);
+    margin-left: 100px;
+}
+
+form {
+    padding: 20px;
+    margin-left: 500px;
+    width: 40%;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: rgb(17, 29, 74);
+    box-shadow: 2px 3px 4px rgb(0, 38, 255);
+}
+
+form:hover {
+    color: rgb(19, 8, 51);
+    background-color: rgb(63, 66, 245);
+    transform:scale(1.1);
+
+}
+
+button {
+    margin-left: 230px;
+}
+
+span {
+    width: 100%;
+}

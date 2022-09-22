@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import * as alldeals from "../deals.json";
+//Auth Guard
+import { AuthService } from 'src/app/auth.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-kidsshopeedeals',
   templateUrl: './kidsshopeedeals.component.html',
@@ -7,7 +10,13 @@ import * as alldeals from "../deals.json";
 })
 export class KidsshopeedealsComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private auth: AuthService, private route: Router) { }
+
+  logOut() {
+    this.auth.logout();
+    this.route.navigate(['']);
+}
 
   ngOnInit(): void {
   }
