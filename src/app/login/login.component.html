@@ -1,25 +1,4 @@
-<!-- 
-<div class="container">
-    <h4>LOGIN</h4>
-    <form class="login-form" [formGroup]="form" (ngSubmit)="onSubmit()">
-        <div class="form-group">
-            <label class="text-uppercase">Email</label>
-            <input type="text" class="form-control" formControlName="email" />
-        </div>
-        <br>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" class="form-control" formControlName="password" />
-        </div>
-        <button type="submit" href="" class="btn btn-primary mt-2 float-right">
-            Login
-        </button>
-    </form>
-    <div class="alert alert-danger" *ngIf="isSubmitted && !isValidUser">
-        <strong>login successfull</strong>
-        
-    </div>
-</div> -->
+
 <div class="mt-5">
     <div class="col-md-12 min-vh-100 d-flex flex-column">
       <div class="row">
@@ -41,7 +20,7 @@
                                     <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']">Password must be at least 6 characters</label>
                                 </div>
                                 <br>
-                                <button type="submit" class="btn"  style="background-color: rgb(118, 186, 243);"  href="">Login</button>
+                                <button type="submit" class="btn"  style="background-color: rgb(111, 208, 211);"  href="">Login</button>
                                 
                                 <div class="ms-fs-12 text-center ms-mt-x ms-mb-m forgot">
                                     <p style="padding-top:30px">

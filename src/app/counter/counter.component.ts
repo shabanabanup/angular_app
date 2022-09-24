@@ -11,29 +11,12 @@ export class CounterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  counterValue=1;
-  countLessThenOne=true;
 
-  count:number=1;
+  count = 1;
+  // @Input() count?:number;
 
-  //Receive the counterValue from counterchild
-  decrement(){
-    if(this.counterValue==1)
-    {
-      this.countLessThenOne=false;
-    }
-    else{
-      this.countLessThenOne=true;
-      this.counterValue--;
-    }
-    
+  receivecount($event: number) {
+    this.count = $event;
   }
-
-  increment(){
-    this.counterValue++;
-    this.countLessThenOne=true;
-    
-  }
- 
 
 }

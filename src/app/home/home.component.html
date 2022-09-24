@@ -17,7 +17,7 @@
 
       <div class="carousel-item active" data-bs-interval="10000">
 
-        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16491076/2021/12/13/92092f8f-921e-4d52-8b0c-d9b04bb72ebd1639372865809PinkChickNavyBlueColourblockedLayeredSatinDress1.jpg" class="d-block w-100" alt="CSS">
+        <img src="https://images.freekaamaal.com/post_images/1605784309.jpg" class="d-block w-100" alt="CSS">
 
         <div class="carousel-caption d-none d-md-block">
 
@@ -86,7 +86,7 @@
 
   <ul *ngIf="isVisible">
 
-    <li *ngFor="let product of products" style="color:blueviolet">
+    <li *ngFor="let product of products"  style="color:rgb(43, 226, 98) "   >
   
       {{product.productname}}
   
@@ -102,7 +102,7 @@
   
   <!--*ngSwitch-->
   
-  <ul [ngSwitch]="product">
+  <!-- <ul [ngSwitch]="product">
   
     <li *ngSwitchCase="'Dress'">Dress</li>
   
@@ -115,11 +115,14 @@
     <li *ngSwitchDefault>Not Found</li>
   
   </ul>
-  
+   -->
    
   
   
   <!--TERNARY OPERATOR FOR STYLE BINDING-->
+  <br>
+  <br>
+  <br>
   <button [style.color]="errorcolor=='red1'?'red':'blue'">STOCK DETAILS</button>
   <hr>
   <!--Access the ProductDetails *ngFor and *ngSwitchCase-->
@@ -139,9 +142,9 @@
     </li>
   </ul>
   <hr>
-  <h1>contextual class</h1>
+  <!-- <h1>contextual class</h1> -->
   <!--Bootstrap contextual classes(eg text-success)-->
-  <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.status">
+   <!-- <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.status">
     <li *ngSwitchCase="'Active'" class="text-success">
       <img class="card_img" style="height: 260px; width: 300px;" [src]="pdetails.img" class="card-img-top" alt="...">
       {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
@@ -155,7 +158,7 @@
       {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
     </li>
   </ul>
-  <hr>
- 
+  <hr> -->
+  
   
 

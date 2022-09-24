@@ -1,20 +1,4 @@
-/* Form{
-    background-color: rgb(234, 197, 223);
-    border-radius: solid;
-    margin-left: 50px;
-    border-radius: solid;
-    margin-right: 100px;
-    border-style: solid;
-    box-sizing: border-box;
-    
 
-
-}
-marquee{
-    text-shadow:2px 3px 3px rgba(155, 222, 122, 0.724);
-    color:rgb(223, 83, 48);
-    font-size: 28px;
-} */
 input {
     width: 60%;
     margin-left: 100px;
@@ -36,8 +20,8 @@ form {
 }
 
 form:hover {
-    color: rgb(19, 8, 51);
-    background-color: rgb(63, 66, 245);
+    color: rgb(177, 199, 55);
+    background-color: rgb(45, 222, 207);
     transform:scale(1.1);
 
 }

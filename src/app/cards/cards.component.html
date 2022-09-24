@@ -63,7 +63,9 @@
       </div>
     </div>
   </div>
-  <marquee><h5>Lightning deals in kidsshopee</h5></marquee>
+  <marquee><h5>Lightning deals in kidsshopee</h5> </marquee>
+    
+  
 <div *ngFor="let prod of product" [ngSwitch]="prod.pstatus" style="border:none;">
     <div class="row">
         <!--1st column-->
@@ -74,7 +76,7 @@
         <!--2nd column-->
         <div class="card col-lg-6" *ngSwitchCase="'active'" style="border:none;">
             <div class="card-body col-lg-12">
-                <div class="row" style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;">
+                <div class="row" style="margin-top:10px;border-style:solid;border-color:rgb(217, 32, 32);border-radius:15px;">
                     <div class="col-lg-3">
                         <!--Property Binding-->
                         <img [src]="prod.img">
@@ -99,7 +101,7 @@
         </div>
         <div class="card col-lg-6" *ngSwitchCase="'out of stock'" style="border:none;">
           <div class="card-body col-lg-12">
-              <div class="row" style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;">
+              <div class="row" style="margin-top:10px;border-style:solid;border-color:rgb(201, 35, 35);border-radius:50px;">
                   <div class="col-lg-3">
                       <!--Property Binding-->
                       <img [src]="prod.img">

@@ -2,8 +2,10 @@ marquee{
     text-shadow:2px 3px 3px rgba(3, 172, 251, 0.724);
     color:rgb(224, 68, 178);
     font-size: 28px;
+   
 }
 img{
+    
     height:150px;
     width:100px;
     margin-left:20px;
@@ -11,3 +13,5 @@ img{
     margin-bottom:10px;
     border-radius:10px;
 }
+
+

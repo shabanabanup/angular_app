@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { KidstoysComponent } from './kidstoys/kidstoys.component';
 import { KidsdressComponent } from './kidsdress/kidsdress.component';
-import { dealsComponent } from './deals/deals.component';
+import { DealsComponent } from './deals/deals.component';
 import { KidsshopeedealsComponent } from './deals/kidsshopeedeals/kidsshopeedeals.component';
 import { CounterComponent } from './counter/counter.component';
 import { AdsComponent } from './ads/ads.component';
@@ -19,6 +19,9 @@ import { RegisterComponent } from './register/register.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { LoginComponent } from './login/login.component';
+
+import { CartItemsComponent } from './cart-items/cart-items.component';
+import { CounterchildComponent } from './counterchild/counterchild.component';
 
 
 @NgModule({
@@ -30,7 +33,7 @@ import { LoginComponent } from './login/login.component';
     SearchComponent,
     KidstoysComponent,
     KidsdressComponent,
-    dealsComponent,
+    DealsComponent,
     KidsshopeedealsComponent,
     CounterComponent,
     AdsComponent,
@@ -38,7 +41,9 @@ import { LoginComponent } from './login/login.component';
     RegisterComponent,
     ContactusComponent,
     ProductdetailsComponent,
-    LoginComponent
+    LoginComponent,
+    CartItemsComponent,
+    CounterchildComponent
   ],
   imports: [
     BrowserModule,

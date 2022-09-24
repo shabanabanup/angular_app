@@ -1,5 +1,6 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ 
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img [src]="logo">{{title}}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,18 +14,15 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="register" *ngIf="!auth">Register</a>
           </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" routerLink="contact" *ngIf="!auth">Contact</a>
-          </li>
-          
-       
         <li class="nav-item">
           <a class="nav-link" href="#" routerLink="cards" *ngIf="auth">cards</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact" *ngIf="auth">Contact</a>
+        </li>
         <li class="nav-item dropdown" *ngIf="auth">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            view more
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" routerLink="kids">toys</a></li>
@@ -36,16 +34,27 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="prod_details" *ngIf="auth">Product Details</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+        
       </ul>
-      <form class="d-flex">
+      <!-- <form class="d-flex">
         <input class="form-control me-2" #product type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit" (click)="search_product(product.value); product.value=''">Search</button>
       </form>
       <app-search [product]="productentered"></app-search>
-    </div>
+      <br>
+      <br> -->
+      <button routerLink='cartitem' style="height:5px;border:none;" *ngIf="auth">
+        <span class="fa fa-cart-plus" style="font-size:16px;color:rgb(86, 240, 52)"><sup class="badge badge-warning" style="color:rgb(24, 171, 34);font-size: xx-small;">{{cartcount}}</sup></span>
+      </button> &nbsp;&nbsp;&nbsp;
+      <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:rgb(30, 96, 126);" routerLink="login"
+        *ngIf="auth">Logout</a>
+    
   </div>
+    
+  </div>
+
+
 </nav>
+<br>
+<br>
 

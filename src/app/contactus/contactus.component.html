@@ -3,7 +3,7 @@
  <div class="card col-lg-6" style="border:none;margin-top: 30px ;margin-left:280px;">
     <!-- <app-deals [product]="productItem" *ngFor="let productItem of all"></app-deals> -->
     <div class="card-body col-lg-12">
-        <div class="row" style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;"
+        <div class="row" style="margin-top:10px;border-style:solid;border-color:rgb(207, 16, 16); border-radius:15px;"
             *ngFor="let m of contact">
             <div class="col-lg-3">
                 <!--Property Binding-->
@@ -13,7 +13,7 @@
                 <!--Interpolation Binding-->
                 <div>
                     Employename: {{ m.ename | uppercase}}
-                    <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+                    
                 </div>
                 <hr>
                 <div [hidden]="productDetail">

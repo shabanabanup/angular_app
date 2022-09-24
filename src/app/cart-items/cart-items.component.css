@@ -1,0 +1,26 @@
+.container-fluid{
+    background-color: rgb(88, 222, 130);
+}
+img{
+    height:100px;
+    width:100px;
+    box-shadow: 0 0 10px 5px rgba(51, 34, 233, 0.906);
+}
+h1{
+    color:rgb(206, 25, 25);
+    font-size: 40px;
+    display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  box-shadow: 0 0 10px 5px rgba(220, 77, 77, 0.906);
+  
+}
+
+
+h3{
+    color:rgb(53, 39, 241);
+    font-size: 14px;
+}
