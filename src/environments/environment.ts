@@ -4,10 +4,11 @@
 
 export const environment = {
 
-  production: false,
-  userapi:"http://localhost:3000/users",
+  production: true,
+  postsapi:"https://heroku-json-server-code.herokuapp.com/posts",
+  userapi:"https://heroku-json-server-code.herokuapp.com/users",
 
-  cartapi:"http://localhost:3000/cart"
+  cartapi:"https://heroku-json-server-code.herokuapp.com/cart"
 };
 
 /*

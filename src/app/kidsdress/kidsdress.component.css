@@ -6,6 +6,7 @@ img{
     margin-top:10px;
     margin-bottom:10px;
     border-radius:10px;
+    box-shadow: 0 0 10px 5px rgba(34, 187, 233, 0.906);
 }
 .prodimg{
     height:200px;
