@@ -242,5 +242,14 @@
       "quantity": 1,
       "id": 15
     }
+  ],
+  "Admin": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "Admin@123",
+      "mobile": ""
+    }
   ]
 }

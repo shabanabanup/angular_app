@@ -84,7 +84,7 @@
 
 <!--*ngIf in the <ul> for toggle effects to hide/show contents-->
 
-  <ul *ngIf="isVisible">
+  <!-- <ul *ngIf="isVisible">
 
     <li *ngFor="let product of products"  style="color:rgb(43, 226, 98) "   >
   
@@ -93,13 +93,13 @@
     </li>
   
   </ul>
-  
+   -->
   <!--event to hide product dectails-->
   
-  <button (click)="hide_products()"> The product details
+  <!-- <button (click)="hide_products()"> The product details
   
   </button>
-  
+   -->
   <!--*ngSwitch-->
   
   <!-- <ul [ngSwitch]="product">
@@ -120,14 +120,14 @@
   
   
   <!--TERNARY OPERATOR FOR STYLE BINDING-->
-  <br>
+  <!-- <br>
   <br>
   <br>
   <button [style.color]="errorcolor=='red1'?'red':'blue'">STOCK DETAILS</button>
-  <hr>
+  <hr> -->
   <!--Access the ProductDetails *ngFor and *ngSwitchCase-->
   <!--red,green,yellow classes are created in the component.css-->
-  <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
+  <!-- <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
     <li *ngSwitchCase="'green'" class="green">
       <img class="card_img" style="height: 260px; width: 300px;" [src]="pdetails.img" class="card-img-top" alt="...">
       {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
@@ -141,7 +141,7 @@
       {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
     </li>
   </ul>
-  <hr>
+  <hr> -->
   <!-- <h1>contextual class</h1> -->
   <!--Bootstrap contextual classes(eg text-success)-->
    <!-- <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.status">
@@ -160,5 +160,12 @@
   </ul>
   <hr> -->
   
-  
+  <div class="card bg-dark text-white">
+    <img src="https://www.pinkblueindia.com/blog/wp-content/uploads/2018/08/baby-girls-ethnic-wear-1200x675.jpg" class="card-img " style="height: 600px; width: 1300px;"  alt="...">
+    <div class="card-img-overlay">
+      <!-- <h5 class="card-title"></h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Last updated 3 mins ago</p> -->
+    </div>
+  </div>
 

@@ -17,11 +17,12 @@ form {
     border-radius: 10px;
     border-color: rgb(17, 29, 74);
     box-shadow: 2px 3px 4px rgb(0, 38, 255);
+    background-color: rgb(168, 203, 211);
 }
 
 form:hover {
     color: rgb(177, 199, 55);
-    background-color: rgb(45, 222, 207);
+    background-color: rgb(83, 105, 92);
     transform:scale(1.1);
 
 }

@@ -8,7 +8,8 @@ export const environment = {
   postsapi:"https://heroku-json-server-code.herokuapp.com/posts",
   userapi:"https://heroku-json-server-code.herokuapp.com/users",
 
-  cartapi:"https://heroku-json-server-code.herokuapp.com/cart"
+  cartapi:"https://heroku-json-server-code.herokuapp.com/cart",
+  adminapi:"https://heroku-json-server-code.herokuapp.com/admin",
 };
 
 /*

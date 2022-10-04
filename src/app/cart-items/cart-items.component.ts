@@ -83,7 +83,7 @@ export class CartItemsComponent implements OnInit {
     this.ngOnInit();
   }
   onClick(){
-    this.router.navigate(['deals'])
+    this.router.navigate(['kidsshopeedeals'])
   }
   ngOnInit(): void {
     this.cartSvc.getCartItems().subscribe(

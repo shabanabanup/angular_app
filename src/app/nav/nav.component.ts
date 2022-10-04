@@ -19,6 +19,7 @@ export class navComponent implements OnInit {
 
   constructor(private authService:UserService,private cartSvc:CartService) { }
   auth:boolean=false;
+  admin:boolean=false;
 
   cartcount: number=0;
   title = 'shiny';
@@ -47,6 +48,15 @@ search_product(product_name:string):void{ //Laptop
       {
         console.log('auth inside nav component: ' + data);
         this.auth = data;
+      }
+    );
+    this.authService.authad.subscribe(
+      data => 
+      {
+        console.log('auth inside nav component: ' + data);
+        this.admin = data;
+        console.log(this.admin);
+        
       }
     );
     this.cartSvc.getCartItems().subscribe (     

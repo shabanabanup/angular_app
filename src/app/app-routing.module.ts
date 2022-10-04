@@ -11,6 +11,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { LoginComponent } from './login/login.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
+import { AdminComponent }     from './admin/admin.component';
 
 
 
@@ -27,7 +28,8 @@ const routes: Routes = [
   {path: 'contact',component:ContactusComponent},
   {path: 'prod_details',component:ProductdetailsComponent},
   {path: 'login',component:LoginComponent},
-  {path:'cartitem',component:CartItemsComponent}
+  {path:'cartitem',component:CartItemsComponent},
+  {path:'admin',component:AdminComponent}
   
 ];
 

@@ -27,12 +27,13 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" routerLink="kids">toys</a></li>
             <li><a class="dropdown-item" routerLink="kidsd">kids dress</a></li>
+            <!-- <li><a class="dropdown-item" routerLink="admin">Admin login</a></li> -->
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" routerLink="kidsshopeedeals">kidsshopee delas</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="prod_details" *ngIf="auth">Product Details</a>
+          <a class="nav-link" routerLink="prod_details" *ngIf="admin">Product Details</a>
         </li>
         
       </ul>
