@@ -141,49 +141,8 @@
       "useremail": "rock@gmail.com",
       "password": "Rock123",
       "mobile": "1234567891"
-    },
-    {
-      "uername": "Shalini",
-      "useremail": "shalini@gmail.com",
-      "password": "Shalini123",
-      "mobile": "9876543212",
-      "id": 7
-    },
-    {
-      "uername": "",
-      "useremail": "bharat@gmail.com",
-      "password": "Bharat@123",
-      "mobile": "1234543211",
-      "id": 8
-    },
-    {
-      "uername": "",
-      "useremail": "radhikha@gmail.com",
-      "password": "Radi123",
-      "mobile": "7654321987",
-      "id": 9
-    },
-    {
-      "uername": "",
-      "useremail": "muskan@gmail.com",
-      "password": "Muskan@123",
-      "mobile": "9870654543",
-      "id": 10
-    },
-    {
-      "uername": "",
-      "useremail": "saniya@gmail.com",
-      "password": "Saniya@123",
-      "mobile": "9876540321",
-      "id": 11
-    },
-    {
-      "uername": "",
-      "useremail": "arunashree@gmail.com",
-      "password": "Aruna@123",
-      "mobile": "8765430931",
-      "id": 12
     }
+    
   ],
   "cart": [
     {
